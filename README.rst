@@ -25,23 +25,23 @@ renaming it to shellcmd.rb and putting it in the application directory
 - Test it::
 
     mco shellcmd 'echo i execute therefore i am'
-
-Do you really want to run the command echo i think therefore i am unfiltered? (y/n): y
-
-===============================================================
-HOST:host1.yoursite.com EXITCODE:0 STDOUT:
-===============================================================
-i think therefore i am
-===============================================================
-===============================================================
-HOST:host2.yoursite.com EXITCODE:0 STDOUT:
-===============================================================
-i think therefore i am
-===============================================================
-
-
-
-Finished processing 14 / 14 hosts in 663.52 ms
+    
+    Do you really want to run the command echo i think therefore i am unfiltered? (y/n): y
+    
+    ===============================================================
+    HOST:host1.yoursite.com EXITCODE:0 STDOUT:
+    ===============================================================
+    i think therefore i am
+    ===============================================================
+    ===============================================================
+    HOST:host2.yoursite.com EXITCODE:0 STDOUT:
+    ===============================================================
+    i think therefore i am
+    ===============================================================
+    
+    
+    
+    Finished processing 14 / 14 hosts in 663.52 ms
 
 TODO
 ====
